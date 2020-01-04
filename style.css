@@ -11752,20 +11752,9 @@ video {
 .w-4\/12{
   width: 33.333333%;
 }
-<<<<<<< HEAD
-.name{
-	background-color: rgb(255,217,102);
-	color: black;
-	padding: 15px 5px;
-	border-radius: 10px;
-}
-.social-media{
-	font-size: 25px;
-=======
 
 .w-5\/12{
   width: 41.666667%;
->>>>>>> fdd9c5882e3e4651a6ac51218cd8586298f6d9a3
 }
 
 .w-6\/12{
