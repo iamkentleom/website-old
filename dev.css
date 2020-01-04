@@ -1,0 +1,28 @@
+@import url('https://rsms.me/inter/inter.css');
+	html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+	html { font-family: 'Inter var', sans-serif; }
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body{
+	font-family: Inter;
+}
+
+.roboto{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.footer{
+	background-color: #161B52;
+}
+
+.wavy{
+	background-image: url('images/wavy.svg');
+}
