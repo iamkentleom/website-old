@@ -19,7 +19,8 @@ module.exports = {
   variants: {
     visibility: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
-    width: ['responsive', 'hover', 'group-hover']
+    width: ['responsive', 'hover', 'group-hover'],
+    display: ['responsive', 'hover', 'group-hover']
   },
   plugins: []
 }
