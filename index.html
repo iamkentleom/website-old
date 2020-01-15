@@ -11,7 +11,7 @@
 </head>
 <body>
 	<nav class="px-2 lg:px-8 w-full bg-white">
-		<div class="flex justify-between px-6 lg:px-20 py-8">
+		<div class="flex justify-between px-6 md:px-10 lg:px-20 py-8">
 			<a href="">
 				<img src="images/kent.jpg" alt="Me" class=" w-12 h-12 rounded-full">
 			</a>
@@ -29,7 +29,7 @@
 	<div class="px-2 md:px-8 pt-8 md:pt-0">
 		<div class="md:flex md:justify-around pl-8 lg:pl-20">
 			<div class="self-center py-12">
-				<h1 class="text-5xl lg:text-7xl font-bold leading-none">Kent Leo<br/>Makibulan</h1>
+				<h1 class="text-5xl lg:text-7xl font-medium leading-none">Kent Leo<br/>Makibulan</h1>
 				<p class="text-sm lg:text-xl roboto">20 - Student Developer - UP Cebu</p>
 				<br/>
 				<a href="#about" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full">Read More -></a>
@@ -39,9 +39,9 @@
 	</div>
 	<section id="about">
 		<div class="p-8">
-			<div class="lg:flex py-8">
-				<img src="images/clip-education.svg" alt="about" class="w-2/3 lg:w-full h-auto hidden md:inline-flex">
-				<div class="self-center pr-2 lg:pr-20">
+			<div class="block lg:flex py-8">
+				<img src="images/clip-education.svg" alt="about" class="w-1/2 lg:w-full h-auto hidden lg:inline-block">
+				<div class="self-center pr-2 pl-0 md:pl-10 lg:pl-0 md:pr-10 lg:pr-20">
 					<div>
 						<h1 class="text-2xl font-bold">ABOUT ME</h1>
 						<div class="w-16 h-1 bg-blue-500"></div>
@@ -62,42 +62,42 @@
 	</section>
 	<section id="recent-activity">
 		<div class="p-8">
-			<div class="p-2 md:p-20">
+			<div class="p-2 md:p-10 lg:p-20">
 				<h1 class="text-2xl font-bold">RECENT ACTIVITY</h1>
 				<div class="w-24 h-1 bg-blue-500"></div>
 				<br/>
 				<p class="text-xl">
 					This is what I've been workin' on lately
 				</p><br/>
-				<div class="m-4 p-8 border-2 rounded border-dashed border-gray-800">
+				<div class="flex justify-center text-center m-4 p-8 border-2 rounded border-dashed border-gray-800">
 					Nothing to display here
 				</div>
 			</div>
 		</div>
 	</section>
 	
-	<div class="p-2 md:p-12 wavy bg-no-repeat bg-cover w-full"></div>
+	<div class="p-4 md:p-12 wavy bg-no-repeat bg-cover w-full"></div>
 	<footer class="w-full px-8 footer">
 		<div class="block md:flex">
-			<div class="px-2 m:px-20 pt-12 w-full md:w-2/3 self-end">
+			<div class="px-2 lg:px-20 pt-12 w-full md:w-2/3 self-end">
 				<div>
 					<h1 class="text-2xl text-gray-300 font-bold">GET IN TOUCH</h1>
-					<!-- <p class="text-base text-gray-300">Contact me on these various platforms</p> -->
 					<div class="w-16 h-1 bg-blue-500"></div>
 				</div>
 				<br/>
 				<p class="text-xl text-gray-300">Feel free to contact me on these various platforms</p>
 				<br/>
 				<ul class="md:px-2 leading-normal text-gray-600 text-sm md:text-base">
-					<li class="md:w-2/3"><i class="lni-github-original"></i></i>&ensp;<a href="https://github.com/iamkentleom" target="_blank" class="hover:text-gray-500"></i>github.com/iamkentleom</a></li>
-					<li class="md:w-2/3"><i class="lni-linkedin-original"></i>&ensp;<a href="https://linkedin.com/in/kent-leo-makibulan" target="_blank" class="hover:text-gray-500"></i>linkedin.com/in/kent-leo-makibulan</a></li>
-					<li class="md:w-2/3"><i class="lni-twitter-original"></i>&ensp;<a href="https://twitter.com/iamkentleom" target="_blank" class="hover:text-gray-500">twitter.com/iamkentleom</a></li>
-					<li class="md:w-2/3"><i class="lni-envelope"></i>&ensp;<a href="mailto:leomakibulan@gmail.com" target="_blank" class="hover:text-gray-500">leomakibulan@gmail.com</a></li>
+					<li><i class="lni-github-original"></i></i>&ensp;<a href="https://github.com/iamkentleom" target="_blank" class="hover:text-gray-500"></i>github.com/iamkentleom</a></li>
+					<li><i class="lni-stackoverflow">&ensp;</i><a href="https://stackoverflow.com/users/5955052/iamkentleom" target="_blank" class="hover:text-gray-500">stackoverflow.com/users/5955052/iamkentleom</a></li>
+					<li><i class="lni-linkedin-original"></i>&ensp;<a href="https://linkedin.com/in/kent-leo-makibulan" target="_blank" class="hover:text-gray-500"></i>linkedin.com/in/kent-leo-makibulan</a></li>
+					<li><i class="lni-twitter-original"></i>&ensp;<a href="https://twitter.com/iamkentleom" target="_blank" class="hover:text-gray-500">twitter.com/iamkentleom</a></li>
+					<li><i class="lni-envelope"></i>&ensp;<a href="mailto:leomakibulan@gmail.com" target="_blank" class="hover:text-gray-500">leomakibulan@gmail.com</a></li>
 				</ul>
 			</div>
-			<div class="pt-16 md:pt-56 group text-gray-600">
-				<p class="text-lg text-gray-400">Made with 💖 by Kent</p>
-				<p class="text-sm">Illustrations courtesy from <a class="hover:text-gray-500" href="https://icons8.com/" target="_blank">Icons8</a></p>
+			<div class="pt-16 text-gray-600 self-end">
+				<p class="text-lg text-gray-400">💻 with 💖 by Kent</p>
+				<p class="text-sm">Illustrations from <a class="hover:text-gray-500" href="https://icons8.com/" target="_blank">Icons8</a></p>
 				<p class="text-sm">&copy; 2020 Kent Leo L. Makibulan. All rights reserved.</p>
 			</div>
 		</div>
